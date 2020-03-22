@@ -1,0 +1,202 @@
+.main_content {
+    background: #ffffff;
+}
+
+.banner {
+    background-image: url('../images/banner-index.png');
+    margin-top: 0;
+    height: 425px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+.Services {
+    background: url('../images/bg_leaf.png') no-repeat no-repeat;
+    background-position: right bottom;
+    margin-bottom: 0;
+}
+
+.card { 
+    border: 0;
+    max-width: 300px;
+    margin: 0 auto;
+    border: none;
+}
+
+.cardTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #ff3333;
+}
+
+.cardTitle_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100%;
+    text-shadow: 0 0 3px #000;
+    color: #fff;    
+    font-size: 27px;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+}
+
+.cardInfo {
+    width: 100%;
+    height: 240px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important; 
+    margin-bottom: 20px;
+}
+
+.cardImage {
+    height: 225px;
+    max-width: 300px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.cardImage_mobile {
+    height: 225px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.cardDesc {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 0.2s ease-out 0s;
+    color: black;
+    display: none;
+}
+
+.cardInfo:hover > div {
+    justify-content: center;
+    display: flex;
+    transition: all 0.2s ease-out 0s;
+    background: #f9b500;
+    cursor: pointer;
+}
+
+.buttonSection {
+    margin-top: 1.5rem;
+    padding-bottom: 100px;
+}
+
+.slider-section {
+    position: relative;
+    margin: 20px auto;
+    background-color: #f4f5fb;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.slider_banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../images/slider_background.png') no-repeat no-repeat;
+}
+
+.slider_title {
+    font-size: 1.9rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0;
+    text-align: left;
+    color: #3B3B3B;
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+}
+
+.slider_title:after {
+    content: "";
+    height: 2px;
+    width: 60px;
+    margin-top: 0.5rem;
+    background: #ee322e;
+    display: inline-block;
+    
+}
+
+.center {
+    -ms-align-items: center;
+	align-items: center;
+}
+
+
+.MapMarker {
+    font-size: 35px !important;
+}
+
+
+.search_locationmobile > a {
+    position: absolute;
+    z-index: 9999;    
+    right: 30px;
+    margin-top: 25px;
+    font-size: 23px;
+}
+
+.search_locationmobile input {
+    position: absolute;
+    z-index: 999;
+    height: 45px;
+    margin-top: 20px;
+    width: 93%;
+    border: 1px solid #cecece;
+    padding: 0 20px;
+    border-radius: 30px;
+    font-size: 17px;
+}
+
+
+.search_locationmobile input:focus {
+    border: 1px solid #fcb42c;
+}
+
+.web_map {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 992px) and (min-width: 760px){
+    .Navbar_Menu > ul > li > a::after {
+        height: 0;
+    }
+  }
+
+  @media screen and (max-width: 992px) and (min-width: 760px){
+    .web_map {
+        width: 100%;
+        height: 500px;
+    }
+  }
+  
+  

@@ -1,0 +1,133 @@
+@import "./base.scss";
+
+body {
+  font-family: $font-family;
+}
+
+.App {
+  p {
+    margin: 5px;
+    font-size: 16px;
+  }
+}
+.headerMainTitle {
+  font-size: 20px;
+}
+
+.mainBodyPart {
+  background: $body-bg;
+  height: 80vh;
+}
+
+.slider-wrapper {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  .slick-dots {
+      bottom: -70px;
+      li {
+          &.slick-active {
+              button:before {
+                  color: #fcb42c !important;
+              }
+          }
+          button:before {
+              font-size: 15px;
+              color: #444 !important;
+          }
+      }
+  }
+
+  .slider-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;        
+      height: 410px;
+      max-width: 300px;
+      margin: 0 auto;
+      background: rgba(white, 0.3);
+      position: relative;
+      & .banner {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          margin-bottom: 0;
+      }
+      .info {
+          display: flex;
+          flex-direction: column;
+          max-height: 300px;
+          align-self: flex-end;
+          padding: 15px;
+          background: rgba(white, 0.4);
+      }
+      .tag-container {
+          padding: 15px;
+          display: flex;
+          flex-direction: row;
+          .tag {
+              padding: 5px;
+              background: white;
+              color: black;
+              font-size: 12px;
+              margin-right: 5px;
+          }
+      }
+      .description {}
+      .pricing {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding-top: 10px;
+      }
+          .rating {}
+              .rating {
+                  padding: 0;
+                  margin: 0;
+              }
+              .counter {}
+          .price {
+            font-size: 20px;
+            color: #ee322e;
+          }
+  }
+
+  .header {
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  
+  
+.slider-wrapper .slick-dots li button::before {
+    font-size: 17px;
+    color: #444 !important;
+}
+
+  .slick-arrow {
+      background: rgba(white, 0.75);
+      height: 100%;
+      width: 90px;
+      z-index: 10;
+      &.slick-next:before { content: "\e917"};
+      &.slick-prev:before { content: "\e918"};
+      &:before {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: black;
+          font-size: 50px;
+      }
+  }
+  .slick-next {
+      right: 0;
+  }
+  .slick-prev {
+      left: 0;
+  }
+  .slick-disabled {
+      display: none !important;
+  }
+}

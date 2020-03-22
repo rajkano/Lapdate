@@ -1,0 +1,50 @@
+.map_search {
+    padding: 0 30px;
+}
+
+.search_location {
+    margin-bottom: 35px;
+}
+
+.search_location input {
+    width: 100%;
+    border: 1px solid #cecece;
+    height: 55px;
+    padding: 0 20px;
+    border-radius: 30px;
+}
+
+.search_location input:focus {
+    border: 1px solid #fcb42c;
+}
+
+.google_map a {
+    font-size: 40px;
+}
+
+.checkdate {
+    border: 2px solid #ee322e;
+    padding: 15px;
+    border-radius: 30px;
+    color: #ee322e;
+    cursor: pointer;
+}
+
+.choose_date {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.marker > a {
+    font-size: 35px;
+}
+
+.border_main {
+    border-bottom: 1px solid #444;
+}
+
+.pagination {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}

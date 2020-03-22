@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'icones';
+  src:  url('../fonts/icones.eot?ovbvbj');
+  src:  url('../fonts/icones.eot?ovbvbj#iefix') format('embedded-opentype'),
+    url('../fonts/icones.ttf?ovbvbj') format('truetype'),
+    url('../fonts/icones.woff?ovbvbj') format('woff'),
+    url('../fonts/icones.svg?ovbvbj#icones') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icone-"]:before, [class*=" icone-"]:before,
+[class^="icone-"]:after, [class*=" icone-"]:after {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icones' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icone-aide:before {
+  content: "\e900";
+}
+.icone-alerte:before {
+  content: "\e902";
+}
+.icone-cadeau:before {
+  content: "\e903";
+}
+.icone-calendrier:before {
+  content: "\e904";
+}
+.icone-chat:before {
+  content: "\e905";
+}
+.icone-check:before {
+  content: "\e906";
+}
+.icone-chrono:before {
+  content: "\e907";
+}
+.icone-cloche:before {
+  content: "\e908";
+}
+.icone-coeur:before {
+  content: "\e909";
+}
+.icone-coeur-plein:before {
+  content: "\e90a";
+}
+.icone-compte:before {
+  content: "\e90b";
+}
+.icone-corbeille:before {
+  content: "\e90c";
+}
+.icone-crayon:before {
+  content: "\e90d";
+}
+.icone-croix:before {
+  content: "\e96a";
+}
+.icone-email:before {
+  content: "\e90e";
+}
+.icone-envoyer:before {
+  content: "\e90f";
+}
+.icone-etoile:before {
+  content: "\e910";
+  color: #fcb42c;
+}
+.icone-etoile-demi:before {
+  content: "\e911";
+  color: rgb(204, 204, 204);
+}
+.icone-etoile-demi:after {
+  content: "\e912";
+  margin-left: -1.044921875em;
+  color: rgb(252, 180, 44);
+}
+.icone-etoile-vide:before {
+  content: "\e913";
+  color: #ccc;
+}
+.icone-etoile-creuse:before {
+  content: "\e914";
+}
+.icone-fichier:before {
+  content: "\e915";
+}
+.icone-facebook:before {
+  content: "\e916";
+}
+.icone-fleche-droite:before {
+  content: "\e917";
+}
+.icone-fleche-gauche:before {
+  content: "\e918";
+}
+.icone-fleche-bas:before {
+  content: "\e919";
+}
+.icone-fleche-haut:before {
+  content: "\e91a";
+}
+.icone-geolocalisation:before {
+  content: "\e91b";
+}
+.icone-horloge:before {
+  content: "\e91c";
+}
+.icone-imprimer:before {
+  content: "\e91d";
+}
+.icone-info:before {
+  content: "\e91e";
+}
+.icone-instagram:before {
+  content: "\e91f";
+}
+.icone-linkedin:before {
+  content: "\e920";
+}
+.icone-menu-burger:before {
+  content: "\e921";
+}
+.icone-nuage:before {
+  content: "\e922";
+}
+.icone-oeil:before {
+  content: "\e923";
+}
+.icone-option:before {
+  content: "\e924";
+}
+.icone-panier:before {
+  content: "\e925";
+}
+.icone-panneau:before {
+  content: "\e926";
+}
+.icone-parametres-1:before {
+  content: "\e927";
+}
+.icone-parametres-2:before {
+  content: "\e928";
+}
+.icone-partage:before {
+  content: "\e929";
+}
+.icone-plus:before {
+  content: "\e92a";
+}
+.icone-pushpin:before {
+  content: "\e92b";
+}
+.icone-pushpin-beaute:before {
+  content: "\e92c";
+  color: rgb(206, 54, 141);
+}
+.icone-pushpin-beaute:after {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icone-pushpin-loisirs:before {
+  content: "\e92e";
+  color: rgb(72, 166, 237);
+}
+.icone-pushpin-loisirs:after {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icone-pushpin-restaurants:before {
+  content: "\e930";
+  color: rgb(237, 137, 17);
+}
+.icone-pushpin-restaurants:after {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icone-recherche:before {
+  content: "\e932";
+}
+.icone-retour:before {
+  content: "\e933";
+}
+.icone-snapchat:before {
+  content: "\e94e";
+}
+.icone-social:before {
+  content: "\e94f";
+}
+.icone-soleil:before {
+  content: "\e950";
+}
+.icone-telechargement:before {
+  content: "\e951";
+}
+.icone-telephone:before {
+  content: "\e952";
+}
+.icone-twitter:before {
+  content: "\e954";
+}
+.icone-whatsapp:before {
+  content: "\e955";
+}
+.icone-youtube:before {
+  content: "\e956";
+}
+.icone-argent:before {
+  content: "\e901";
+}
